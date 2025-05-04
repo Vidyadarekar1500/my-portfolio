@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
         <div>
-          <p>Hello! I'm Vidya, a Frontend Developer based in India.</p>
+          <p>Hello! I'm Vidya Darekar, a Frontend Developer based in India.</p>
           <p className="mt-2">
             I have 4 years of experience building responsive and scalable web
             apps using ReactJS, TypeScript, JavaScript, HTML, and CSS, Redux.
