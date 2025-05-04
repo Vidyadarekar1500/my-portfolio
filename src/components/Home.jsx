@@ -5,8 +5,6 @@ import {Link} from "react-scroll";
 const Home = () => {
   return (
     <>
-      {/* <img src={Profile} alt="profile" /> */}
-      {/* Todo: Read more about from-black via-black and to-gray-800 from tailwind docs */}
       <div
         name="home"
         className="w-full h-screen bg-gradient-to-b from-black via-black to-gray-800"
@@ -19,13 +17,6 @@ const Home = () => {
             <p className="text-gray-500 py-4 max-w-md">
             I'm a Frontend Developer focused on building fast, accessible, and responsive web applications using modern technologies like React and TypeScript.
             </p>
-            {/* <p className="text-gray-500 py-4 max-w-md">
-              I have 4 years of experience building responsive and scalable web
-              apps using ReactJS, TypeScript, JavaScript, HTML, and CSS, Redux.
-              Proficient in creating reusable components, integrating APIs, and
-              writing clean, maintainable code. Strong focus on performance,
-              accessibility, and modern development best practices.
-            </p> */}
             <div className="flex flex-row gap-4">
               <Link to="portfolio" smooth={true} duration={500} className="group text-white group rounded-md px-6 py-3 my-2 flex items-center bg-gradient-to-r from-cyan-500 to-blue-500">
                 Portfolio

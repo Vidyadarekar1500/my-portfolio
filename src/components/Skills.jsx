@@ -9,48 +9,48 @@ import tailwind from "../assets/tailwind.png";
 import github from "../assets/github.png";
 
 const Skills = () => {
-    const skillsData = [
-        {
-            name: "HTML",
-            src: html,
-            style: "shadow-orange-400",
-        },
-        {
-            name: "CSS/SASS",
-            src: css,
-            style: "shadow-blue-400",
-        },
-        {
-            name: "JavaScript",
-            src: javascript,
-            style: "shadow-yellow-400",
-        },
-        {
-            name: "React",
-            src: react,
-            style: "shadow-blue-400",
-        },
-        {
-            name: "TypeScript",
-            src: typescript,
-            style: "shadow-blue-400",
-        },
-        {
-            name: "Tailwind CSS",
-            src: tailwind,
-            style: "shadow-sky-400",
-        },
-        {
-            name: "GitHub",
-            src: github,
-            style: "shadow-gray-400",
-        },
-        {
-            name: "Storybook",
-            src: storybook,
-            style: "shadow-pink-400",
-        },
-    ]
+  const skillsData = [
+    {
+      name: "HTML",
+      src: html,
+      style: "shadow-orange-400",
+    },
+    {
+      name: "CSS/SASS",
+      src: css,
+      style: "shadow-blue-400",
+    },
+    {
+      name: "JavaScript",
+      src: javascript,
+      style: "shadow-yellow-400",
+    },
+    {
+      name: "React",
+      src: react,
+      style: "shadow-blue-400",
+    },
+    {
+      name: "TypeScript",
+      src: typescript,
+      style: "shadow-blue-400",
+    },
+    {
+      name: "Tailwind CSS",
+      src: tailwind,
+      style: "shadow-sky-400",
+    },
+    {
+      name: "GitHub",
+      src: github,
+      style: "shadow-gray-400",
+    },
+    {
+      name: "Storybook",
+      src: storybook,
+      style: "shadow-pink-400",
+    },
+  ];
   return (
     <div
       name="skills"
@@ -64,20 +64,19 @@ const Skills = () => {
           <p className="py-6">These are the technologies I've worked with : </p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 px-12 sm:px-0 text-center">
-            {skillsData.map(({name, src, style}) => {
-                return (
-                    <div key={name} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                        <img src={src} alt={name} className="w-20 mx-auto h-20" />
-                        <p className="mt-4 p-2">{name}</p>
-                    </div>
-                )
-            })
-            }
-            <div>
-                
-            </div>
+          {skillsData.map(({ name, src, style }) => {
+            return (
+              <div
+                key={name}
+                className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              >
+                <img src={src} alt={name} className="w-20 mx-auto h-20" />
+                <p className="mt-4 p-2">{name}</p>
+              </div>
+            );
+          })}
+          <div></div>
         </div>
-        
       </div>
     </div>
   );
