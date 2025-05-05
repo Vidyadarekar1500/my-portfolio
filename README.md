@@ -1,12 +1,33 @@
-# React + Vite
+# 💼 Portfolio - Vidya Darekar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Netlify-blue)](https://vidyadarekarportfolio.netlify.app/)
 
-Currently, two official plugins are available:
+A modern, fully responsive **personal portfolio website** built using **React**, **Vite**, and **Tailwind CSS**.  
+This portfolio represents my work as a Front-End Developer. It highlights my technical skills, selected projects, and contact information.  
+It is designed to serve as a professional profile for recruiters, collaborators, and anyone interested in my work.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React** – Component-based architecture for building UI
+- ⚡ **Vite** – Fast development server and optimized build
+- 🎨 **Tailwind CSS** – Utility-first CSS framework for styling
+- 🌐 **Netlify** – Hosting and deployment
+
+---
+
+## 📸 Features
+
+- Fully responsive and mobile-friendly
+- Smooth animations and transitions
+- Organized sections: Home, About, Portfolio, Skills, Experience, Projects, Contact
+- Resume download option
+- Clean, minimalist UI
+
+---
+
+📬 Contact
+
+📧 Email: darekarvidya150@gmail.com <br/>
+💼 [LinkedIn](https://www.linkedin.com/in/vidya-darekar-002495195/)
